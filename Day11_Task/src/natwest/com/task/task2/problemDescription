@@ -1,0 +1,29 @@
+1. Define a class named Fruit Juice with the following description:
+Instance variables / data members : int product_code — stores the product
+code number
+String flavour — stores the flavour of the juice (E.g. orange, apple, etc.)
+String pack_type — stores the type of packaging (E.g. tetra-pack, PET
+bottle, etc.) int pack_size — stores package size (E.g. 200 ml, 400 ml,
+etc.) float product_price — stores the price of the product
+Member methods :
+(i) FruitJuice() — Default constructor to initialize data members to their
+respective defaults.
+(ii) FruitJuice(int product_code, String flavour, String pack_type, int
+pack_size, float product_price) - Parameterized constructor
+
+(iii)void input( ) — To input and store the product code, flavour, pack type,
+pack size and product price.
+
+(iv)void discount( ) — To reduce the product price by 10%.
+
+(v)void display() — To display the product code, flavour, pack type, pack
+size and product price.
+
+2. Design a class to overload a function polygon() as follows
+(i) void polygon(int n, char ch) — with one integer argument and one
+character type argument that draws a filled square of side n using the
+character stored in ch.
+
+(ii) void polygon(int x, int y) — with two integer arguments that draws a filled
+rectangle of length x and breadth y, using the symbol ‘@’.
+Example:-
