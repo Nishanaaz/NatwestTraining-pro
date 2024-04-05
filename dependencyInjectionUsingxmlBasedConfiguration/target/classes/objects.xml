@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="emp" class = "org.example.Employee"></bean>
+
+
+    <bean id = "res2" class="org.example.ex.Restaurant">
+        <property name="name" value ="Go Khana"></property>
+        <property name="address" value ="5th floor"></property>
+    </bean>
+
+
+    <bean id =" res3 " class ="com.example.ex.Restaurant">
+        <constructor-arg value = "a1 cafe"></constructor-arg>
+        <constructor-arg value = "Btm"></constructor-arg>
+    </bean>
+
+    <bean id =" res4 " class ="com.example.ex.Restaurant">
+        <constructor-arg value = "cavery cafe"></constructor-arg>
+        <constructor-arg value = "hsr"></constructor-arg>
+    </bean>
+
+
+
+<!--    <bean id = "db" class = "org.example.task.ConnectionDb"></bean>-->
+<!--    <bean id = "bd2" class="org.example.task.ConnectionDb"></bean>-->
+    </beans>
